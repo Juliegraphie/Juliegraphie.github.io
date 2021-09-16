@@ -1,0 +1,12 @@
+body {
+    font-family: Helvetica;
+}
+h1 {
+    font-size: 30px;
+}
+img {
+    max-width: 100%;
+    display:block;
+    height: auto;
+    margin-bottom: 1.5em;
+}
