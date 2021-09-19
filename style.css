@@ -1,0 +1,28 @@
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+img{
+    max-width: 100%;
+    display: block;
+    height:auto;
+    margin-bottom: 1.5;
+}
+.title{
+    grid-column-start: 3;
+}
+body{
+    background:rgb(235, 62, 32)
+}
+a{
+    color: black;
+    font-family: 'Grechen Fuemen'
+
+}
+.google-font{
+    font-family: 'Grechen Fuemen';
+}
+h1{
+    font-family: 'Grechen Fuemen';
+}
