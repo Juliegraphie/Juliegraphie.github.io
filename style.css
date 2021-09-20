@@ -1,28 +1,47 @@
+
+*{
+    box-sizing: border-box;
+}
+
 .grid{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
 }
-img{
+
+@media (min-width:700px) {
+    img{
     max-width: 100%;
     display: block;
     height:auto;
     margin-bottom: 1.5;
+    border:10px solid black;
+    }
 }
 .title{
     grid-column-start: 3;
+    font-size: 28px;
 }
 body{
-    background:rgb(235, 62, 32)
+    background:rgb(235, 62, 32);
+    background-size:cover;
 }
 a{
     color: black;
-    font-family: 'Grechen Fuemen'
+    font-family: 'Grechen Fuemen';
 
 }
 .google-font{
     font-family: 'Grechen Fuemen';
 }
 h1{
-    font-family: 'Grechen Fuemen';
+    font-family: 'Gluten';
+    color:black
+}
+.logo{
+    width: 10%;
+    height:10%;
+    border: none;
+    align-items: center;
+    justify-content: center;
 }

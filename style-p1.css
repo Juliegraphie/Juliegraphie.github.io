@@ -1,0 +1,21 @@
+body{
+    background:black;
+    font-family: "Quicksand";
+    color: white;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+@media (min-width:700px){
+    img{
+        max-width: 100%;
+        display: block;
+        height: auto;
+        margin-bottom: 1.5;
+    }
+}
+h1{
+    font-family: "Gluten";
+}
