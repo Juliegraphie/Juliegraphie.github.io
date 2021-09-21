@@ -1,47 +1,285 @@
-
-*{
+* {
     box-sizing: border-box;
 }
 
-.grid{
-    display:grid;
+
+.index {
+    background: rgb(235, 62, 32);
+    background-size: cover;
+    font-family: 'Stick No Bills';
+}
+
+.index img {
+    border: 10px solid black;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+.title {
+    grid-column-start: 3;
+    font-size: 28px;
+}
+
+a {
+    color: black;
+    font-family: 'Grechen Fuemen';
+}
+
+.google-font {
+    font-family: 'Grechen Fuemen';
+}
+
+h1 {
+    font-family: 'Stick No bills';
+    color: black;
+}
+
+p{
+    font-family: 'Quicksand';
+    color: white;
+}
+
+.logo {
+    display: grid;
+}
+
+.logo img {
+    align-self: center;
+    justify-self: center;
+    border: none;
+    width: 30%;
+    height: auto;
+}
+
+.logo p {
+    text-align: center;
+}
+
+.a {
+    transition: 0.4;
+}
+
+a:hover {
+    translate: 5px;
+}
+
+@media (min-width:600px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 50px;
+    }
+}
+
+.a-propos {
+    background-color: rgb(235, 62, 32);
+}
+
+.a-propos h1 {
+    font-family: 'Stick No Bills';
+    color: white;
+}
+
+.a-propos p {
+    font-family: 'Quicksand';
+    color: white;
+}
+
+.a-propos .logo {
+    width: 5%;
+    height: 5%;
+}
+
+.a-propos .grid {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
 }
 
-@media (min-width:700px) {
-    img{
-    max-width: 100%;
-    display: block;
-    height:auto;
-    margin-bottom: 1.5;
-    border:10px solid black;
-    }
+.contacts body {
+    background-color: white;
 }
-.title{
-    grid-column-start: 3;
-    font-size: 28px;
-}
-body{
-    background:rgb(235, 62, 32);
-    background-size:cover;
-}
-a{
+
+.contacts h1 {
+    font-family: 'Gluten';
     color: black;
-    font-family: 'Grechen Fuemen';
+}
+
+.contacts p {
+    font-family: 'Quicksand';
+    color: black;
+}
+
+.contacts .logo {
+    width: 5%;
+    height: 5%;
+}
+
+.projet-2 {
+    background: black;
+}
+
+.projet-3 {
+    background: black;
+}
+
+.projet-3 .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.projet-3 h1{
+    font-family: 'Stick No Bills';
+    color: white;
+}
+
+.project-3 p{
+    font-family: 'Quicksand';
+    color: white;
+}
+
+.i-1{
+    grid-column: 1/3;
+}
+
+.i-4{
+    grid-column: 3;
+}
+
+.i-5{
+    grid-column: 4;
+}
+
+.i-6{
+    grid-column: 1/3;
+}
+
+.i-9{
+    grid-column: 3;
+}
+
+.i-10{
+    grid-column: 1/5;
+}
+
+.projet-1 {
+    background: black;
+    font-family: 'Quicksand';
+    color: white;
+}
+
+.projet-1 img{
+    border : 5px solid white;
 
 }
-.google-font{
-    font-family: 'Grechen Fuemen';
+
+.projet-1 h1 {
+    font-family: 'Stick No Bills';
+    color: white;
 }
-h1{
-    font-family: 'Gluten';
-    color:black
+
+.projet-1 .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
 }
-.logo{
-    width: 10%;
-    height:10%;
-    border: none;
-    align-items: center;
-    justify-content: center;
+
+@media(min-width:700px) {
+    img {
+            max-width: 100%;
+            display: block;
+            height: auto;
+            margin-bottom: 1.5;
+        }
+    }
+
+    .projet-4 .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:50px;
+    }
+
+.projet-4 {
+    background: black;
 }
+
+.projet-4 h1 {
+    font-family: 'Stick No Bills';
+    color: white;
+}
+
+.projet-2 .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:50px;
+}
+
+.projet-2 h1 {
+    font-family:'Stick No Bills';
+    color: white;
+}
+
+.projet-2 p{
+    font-family: 'Quicksand';
+    color: white;
+}
+.img-1{
+    grid-column: 1/4;
+}
+
+.img-2{
+    grid-column: 2/3;
+}
+
+.img-5{
+    grid-column: 1/4;
+}
+
+.projet-8 {
+    background: black;
+}
+
+.projet-8 .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.projet-8 h1{
+    font-family:'Stick No Bills';
+    color: white;
+}
+
+.projet-5{
+    background: black;
+}
+
+.projet-5 .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.projet-5 h1{
+    font-family: 'Stick No Bills';
+    color: white;
+}
+
+.doc-7{
+    grid-column: 2;
+}
+
+.projet-6{
+    background: black;
+}
+
+.projet-6 h1{
+    font-family: 'Stick No Bills';
+    color: white;
+}
+
